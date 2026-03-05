@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Content Vault",
+    "slug": "content-vault",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#2563EB"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.contentvault.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2563EB"
+      },
+      "package": "com.contentvault.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "apiUrl": "https://pinnacle-backend-mb7e.onrender.com",
+      "eas": {
+        "projectId": "72dfdc8c-69dd-41de-8be0-4a2a1e0a2182"
+      }
+    },
+    "owner": "uzumaki-ak"
+  }
+}
