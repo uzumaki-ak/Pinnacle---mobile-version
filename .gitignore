@@ -1,43 +1,43 @@
-# Dependencies
-node_modules/
-pnpm-lock.yaml
-package-lock.json
-yarn.lock
-
-# Expo & React Native
-.expo/
-.expo-shared/
-android/
-ios/
-dist/
-build/
-*.jsbundle
-
-# Environment variables
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Expo & React Native
+.expo/
+.expo-shared/
+android/
+ios/
+dist/
+build/
+*.jsbundle
+
+# Environment variables
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React Native / Metro
+.cache/
+.watchman-cookie
+metro.log
+config.bat
 .env
-.env.local
-.env.*.local
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-
-# OS
-Thumbs.db
-.DS_Store
-
-# Logs
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# React Native / Metro
-.cache/
-.watchman-cookie
-metro.log
